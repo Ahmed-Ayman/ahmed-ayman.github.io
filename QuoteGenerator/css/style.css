@@ -72,14 +72,13 @@ font-family:'Dosis';
 
 
 .nextButton{
-  color:white;
   font-family: 'Dosis', sans-serif;
+
+  width: 100%;
+  color:white;
   background:brown;
-  margin-left:auto;
-  margin-right:auto;
   margin-top:30px;
-  padding:30px;
-  font-size:20px;
+  font-size:300px;
   box-shadow: 5px 5px 5px 0px rgba(51,122,180,1);
 }
 .nextButton:hover{
