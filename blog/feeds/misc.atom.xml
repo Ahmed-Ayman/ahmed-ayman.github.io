@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ahmed Ayman - misc</title><link href="http://ahmed-ayman.github.io/" rel="alternate"></link><link href="http://ahmed-ayman.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://ahmed-ayman.github.io/</id><updated>2017-08-31T00:00:00+02:00</updated><entry><title>welcome to my first article!</title><link href="http://ahmed-ayman.github.io/welcome-to-my-first-article.html" rel="alternate"></link><published>2017-08-31T00:00:00+02:00</published><author><name>ahmed</name></author><id>tag:ahmed-ayman.github.io,2017-08-31:/welcome-to-my-first-article.html/</id><summary type="html">&lt;p&gt;See below intra-site link examples in Markdown format.&lt;/p&gt;
+&lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;p&gt;this is my first post on the blog!&lt;/p&gt;</summary></entry></feed>
