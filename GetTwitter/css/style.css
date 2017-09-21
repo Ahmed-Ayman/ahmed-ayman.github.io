@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  padding: 50px;
+  background-image: url('https://www.7boats.com/wp-content/uploads/2013/01/twitter-background.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*results div ... includes rows of tweets*/
+#results {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+/*each tweet is a list item*/
+li{
+  display: inline;
+}
+.tweet:hover{
+  background-color: rgba(161,202,236,0.6);
+}
+/*profile image*/
+.image{
+  border-radius: 50%;
+}
+.image:hover{
+  width: 100px;
+  height: 100px;
+}
+/*profile name*/
+.title {
+  font-weight: bold;
+  display: inline;
+}
+.title a{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+
+}
+/*screen name (@userName)*/
+.screen_name{
+  color: #0091ff;
+  display: inline;
+}
+.title a:hover{
+  color: rgb(210,236,255,5);
+  text-decoration: none;
+}
+.creation_date{
+  float: right;
+  margin-right: 50px;
+  color: gray;
+}
+.tweet_content{
+margin-left: 80px;
+}
+/*the search button*/
+#search_overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	left: 0px;
+	opacity: 0;
+	position: fixed;
+	top: 0px;
+	transform: translate(0px, -100%) scale(0, 0);
+	transition: all 0.5s ease-in-out;
+	width: 100%
+}
+input[name="screenName"] {
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  margin-top: -51px;
+  margin: 0px auto;
+  outline: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+/*close button*/
+.close {
+  color: #ffffff;
+  font-size: 36px;
+  opacity: 1;
+  position: fixed;
+  right: 30px;
+  top: 15px;
+}
+#search_overlay.open {
+	opacity: 1;
+	transform: translate(0px, 0px) scale(1, 1);
+}
+/*margin between icons*/
+i{
+margin: 10px;
+}

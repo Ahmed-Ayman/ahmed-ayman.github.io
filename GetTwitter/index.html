@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>five tweets fitcher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+  <!--search anchor : opens the overlay to input the screenName-->
+  <p class="text-center" style="margin-top:50px;">
+  <a href="#search"><i class="fa fa-2x fa-search"></i><br>Enter the userName</a>
+  </p>
+  <!--rows of 5 tweets-->
+  <div class="container">
+    <div  class="row ">
+      <ul id="results" ></ul>
+    </div>
+  <!-- <div id="remaining"></div> -->
+  </div>
+  <!--search overlay-->
+  <div id="search_overlay">
+  <button type="button" class="close">×</button>
+  <input type="text" name="screenName" class="form-control">
+  </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/codebird.js"></script>
+
+</body>
+</html>
