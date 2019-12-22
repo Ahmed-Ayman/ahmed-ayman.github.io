@@ -65,7 +65,7 @@
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build && rsync -av  public/* . && rsync -av  public/.* . && rm -rf public && git add . && git commit -m 'updates' && git push",
+    "deploy": "rm -rf .cache && gatsby build && rsync -av  public/* . && rsync -av  public/.* . && rm -rf public && git add . && git commit -m 'updates' && git push && echo -ne '\\007'",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "devhost": "gatsby develop --host 192.168.0.112",
