@@ -13,7 +13,6 @@ jobs:
       run: echo Hello, world!
     - name: Run Npm run deploy
       run: |
-        npm install -g gatsby-cli
-        npm run deploy
+        yarn run build
         
       
