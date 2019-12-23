@@ -13,6 +13,7 @@ jobs:
       run: echo Hello, world!
     - name: Run Npm run deploy
       run: |
+        yarn
         yarn run build
         
       
