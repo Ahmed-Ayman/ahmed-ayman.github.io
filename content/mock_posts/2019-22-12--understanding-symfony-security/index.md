@@ -44,3 +44,5 @@ There are many exceoptions available out of the box, you can choose from the fol
 > side notes for me as an oop newbie,
 >
 >symfony is mainly providing so many interfaces that you can use later like the user interface with it's methods and specifies if it's a throwing an exception or not.
+
+### Authentication
