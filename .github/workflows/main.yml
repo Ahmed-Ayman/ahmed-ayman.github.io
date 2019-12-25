@@ -16,6 +16,6 @@ jobs:
         yarn
     - name: run npm run deploy
       run: 
-        npm run build
+        npm run deploy
         
       
