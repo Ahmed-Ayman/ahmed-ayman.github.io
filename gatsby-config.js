@@ -39,6 +39,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-mermaid'
+        ]
+      }
+    },
+
+    {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,

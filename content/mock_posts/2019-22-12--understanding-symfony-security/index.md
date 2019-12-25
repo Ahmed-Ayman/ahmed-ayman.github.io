@@ -43,3 +43,18 @@ There are many exceoptions available out of the box, you can choose from the fol
 >symfony is mainly providing so many interfaces that you can use later like the user interface with it's methods and specifies if it's a throwing an exception or not.
 
 ### Authentication
+
+
+```mermaid
+graph LR
+install[Install Plugin]
+install --> configure[Configure Plugin]
+configure --> draw[Draw Fancy Diagrams]
+```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
