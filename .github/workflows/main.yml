@@ -11,9 +11,11 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hello, world!
-    - name: Run Npm run deploy
-      run: |
+    - name: Run yarn i
+      run: 
         yarn
+    - name: run npm run deploy
+      run: 
         npm run build
         
       
