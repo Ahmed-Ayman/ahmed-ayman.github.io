@@ -1,0 +1,160 @@
+{
+  "stages": {
+    "develop": {
+      "plugins": [
+        {
+          "name": "styled-jsx/babel",
+          "options": {
+            "plugins": [
+              "styled-jsx-plugin-postcss"
+            ]
+          }
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "develop-html": {
+      "plugins": [
+        {
+          "name": "styled-jsx/babel",
+          "options": {
+            "plugins": [
+              "styled-jsx-plugin-postcss"
+            ]
+          }
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-html": {
+      "plugins": [
+        {
+          "name": "styled-jsx/babel",
+          "options": {
+            "plugins": [
+              "styled-jsx-plugin-postcss"
+            ]
+          }
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-javascript": {
+      "plugins": [
+        {
+          "name": "styled-jsx/babel",
+          "options": {
+            "plugins": [
+              "styled-jsx-plugin-postcss"
+            ]
+          }
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/ordyan/playground/ahmed-ayman.github.io/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "isTSX": true,
+            "allExtensions": true
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    }
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}
