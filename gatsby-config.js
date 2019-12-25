@@ -39,15 +39,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          'gatsby-remark-mermaid'
-        ]
-      }
-    },
-
-    {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
@@ -195,6 +186,20 @@ module.exports = {
                 width: "25px"
               }
             }
+          },
+          {
+             resolve: 'gatsby-remark-mermaid',
+             options: {
+                 language: 'mermaid',
+                 theme: 'default',
+                 viewport: {
+                     width: 200,
+                     height: 200
+                 },
+                 mermaidOptions: {
+                     themeCSS: ".node rect { fill: cornflowerblue; }"
+                 }
+             }
           }
         ]
       }
