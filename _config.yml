@@ -130,7 +130,7 @@ comments:
     clientID    : 1219a036799a4e0f8e81
     clientSecret: cee65101bc5368317ed3c31f140ddcf6d632fe2f
     repository  : ahmed-ayman.github.io
-    owner       :  Ahmed Ayman
+    owner       : ahmed-ayman
     admin: 
        - ahmed-ayman
 
@@ -159,7 +159,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: google # "default" (default), false, "google", "custom"
+  provider: default # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
@@ -226,3 +226,6 @@ plugins:
 
 theme: jekyll-text-theme
 
+collections:
+  projects:
+    output: true

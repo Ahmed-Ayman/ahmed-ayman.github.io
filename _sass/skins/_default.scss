@@ -36,9 +36,10 @@ $text-color-l:     $text-color-theme-light-l;
 $text-background-color: rgba(#000, .05);
 
 // header and footer colors
-$header-text-color: $text-color-3;
-$header-background: $main-color-3;
-
+// $header-text-color: $text-color-3;
+$header-text-color: white;
+// $header-background: $main-color-3;
+$header-background: linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139));
 $footer-text-color: $text-color-3;
 $footer-background: $main-color-3;
 
