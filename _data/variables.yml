@@ -7,7 +7,7 @@ default:
     home: /
     archive:  /archive.html
     rss:  /feed.xml
-  mathjax: false
+  mathjax: true
   mathjax_autoNumber: false
   mermaid: false
   chart: false
@@ -30,12 +30,12 @@ default:
     show_edit_on_github: false
     show_date: true
     show_tags: true
-    show_author_profile: false
-    show_subscribe: false
+    show_author_profile: true
+    show_subscribe: true
     full_width: false
-    sharing: false
+    sharing: true
     comment: true
-    license: false
+    license: true
     pageview: false
     search: default
 

@@ -1,8 +1,1 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 24 24">
-<style type="text/css">
-	.st0{fill:#515151;}
-</style>
-<path class="st0" d="M1.7,22.3c5.7-5.7,11.3-5.7,17,0c3.3-3.3,3.5-5.3,0.8-6c2.7,0.7,3.5-1.1,2.3-5.6s-3.3-5.2-6.3-2.1
-	c3-3,2.3-5.2-2.1-6.3S7,1.8,7.7,4.6C7,1.8,5,2.1,1.7,5.3C7.3,11,7.3,16.7,1.7,22.3"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40px" height="40px"><path fill="#fff" d="M2.5 3.5H37.5V36.5H2.5z"/><path fill="#4788c7" d="M37,4v32H3V4H37 M38,3H2v34h36V3L38,3z"/><path fill="#98ccfd" d="M3 4H37V9H3z"/><path fill="none" stroke="#4788c7" stroke-linecap="round" stroke-miterlimit="10" d="M14.5 26.529L8.75 22.029 14.5 17.529M22.5 15.5L17.5 28.5M25.5 26.529L31.25 22.029 25.5 17.529"/></svg>

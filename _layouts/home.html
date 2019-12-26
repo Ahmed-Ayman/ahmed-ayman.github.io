@@ -1,5 +1,13 @@
 ---
-layout: articles
+layout: page
+title: Home
+---
+<div class="layout--articles">
+  <section class="my-5">
+    {%- include article-list.html articles=site.posts type='grid' -%}
+  </section>
+</div>
+<!-- layout: articles
 titles:
   # @start locale config
   en      : &EN       Home
@@ -27,10 +35,10 @@ show_title: false
 articles:
   data_source: paginator.posts
   article_type: BlogPosting
-  show_cover: false
+  show_cover: true
   show_excerpt: true
   show_readmore: true
-  show_info: true
+  show_info: true  
 ---
 <div class="layout--home">
   {%- include paginator.html -%}
@@ -39,4 +47,4 @@ articles:
   {%- include scripts/home.js -%}
 </script>
 
-{{ content }}
+{{ content }} -->
