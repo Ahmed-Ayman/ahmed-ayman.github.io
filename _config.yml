@@ -130,9 +130,9 @@ comments:
     clientID    : 1219a036799a4e0f8e81
     clientSecret: cee65101bc5368317ed3c31f140ddcf6d632fe2f
     repository  : ahmed-ayman.github.io
-    owner       : ahmed-ayman
-    admin: 
-       - ahmed-ayman
+    owner       : Ahmed-Ayman
+    admin:
+       - Ahmed-Ayman
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
