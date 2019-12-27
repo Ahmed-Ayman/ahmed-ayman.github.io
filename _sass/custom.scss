@@ -1,3 +1,27 @@
 /* start custom scss snippet */
 
 /* end custom scss snippet */
+.col-main.cell.cell--auto {
+  background: white;
+  padding: 1em;
+}
+
+.page__aside .toc-aside {
+  padding: 3rem 0 1rem 1rem;
+}
+
+.col-aside.d-print-none {
+  background: linear-gradient(180deg, #9b9ea2, transparent);
+
+  li.active a {
+    color: white !important;;
+    font-size: 25px;
+  }
+  li a {
+    color: lightgray !important;;
+    font-size: 16px;
+  }
+}
+.header a, .header a:link, .header a:visited{
+  font-weight: bold;
+}
