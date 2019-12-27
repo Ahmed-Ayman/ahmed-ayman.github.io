@@ -24,6 +24,7 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+comments: true
 ---
 
 ![TeXt Theme](me.jpg){:.rounded .shadow}
