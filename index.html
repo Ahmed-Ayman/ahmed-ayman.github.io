@@ -3,3 +3,17 @@ layout: home
 # articles:
 #   excerpt_type: html
 ---
+
+<aside class="home-aside">
+
+  <h2>You might also like</h2>
+  <hr>
+  <ul class="list-unstyled">
+    {% for post in site.posts | sample:5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</aside>
