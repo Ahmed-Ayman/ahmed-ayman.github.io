@@ -17,71 +17,65 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: assets/images/twitter.png
+
 ---
-
-Dark Mode is cool, and TeXt is supporting it.
-
-If you like TeXt, don't forget to give me a star.
-If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.
-If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.
-
 
 <!--more-->
 
-Dark Mode is cool, and TeXt is supporting it.
+[The source code](https://github.com/Ahmed-Ayman/symfony-playground/tree/master/udemy-course/twetter)
 
-If you like TeXt, don't forget to give me a star.
+Hello hello, Welcome to my blog.
+
+In this post, I will be talking about the [Twetter](https://github.com/Ahmed-Ayman/symfony-playground/tree/master/udemy-course/twetter) project. which is a very simple app with some twitter like functionalities.
+
+I've created it using symfony 4 as a part of [this course](https://www.udemy.com/course/learn-symfony-4-hands-on-creating-a-real-world-application/) on Udemy.
+
+## Installation.
+To use it, simple clone the repo and move to `twetter` directory, download [symfony cli](https://symfony.com/download) and [yarn](https://yarnpkg.com/lang/en/), then type `composer install`, `bin/console doctrine:migrations:migrate` then `bin/console doctrine:fixtures:load`, then `yarn && yarn encore dev`,  then finally `symfony serve` which will give you a localhost ip at which you can see the website up and running.
+
+## The code!
+
+Now let's take a dive at the code.
+
+If you are new to symfony4 , you have to keep in mind that the core logic of your app relies in `/src/`, the frontend work is in `assets` if you are using [`encore`](https://symfony.com/doc/current/frontend/encore/installation.html), the twig templates are in `templates` and the `config` dir is where you configure anything!
+
+### Routes and Controllers.
+
+Let's take a scenario and trace it in our code to get what are these stuff!
+
+The first thing you will see when you go to the website, is the index page or the home page.
+
+When you hit the url, Symfony matches that url with what is called a [Route](https://symfony.com/doc/current/routing.html), in our case , the route corresponding to the home page can `Route("/")`. once the route is matched there will be a route controller. in our case the `MicroPostController` in the `Controller` Directory is the one responsible for handling that route, specifically the index Function which takes the `TokenStorageInterface` (we will talk about it in a sec) and renders the `micro_post/index--listing.html.twig` template.
+
+> a controller is responsible for acting upon any matched route. eg, a `/add/product` route will have a controller called maybe something like `AddProductController` that will have an action method maybe called `addProduct()` which will add the product and render some html using a twig template. that's simply the idea of the routes and controllers.
 
 
-It is developing on `dev` branch, you can run `git checkout dev` to switch to this branch.
+In our app, we have the following Controllers:
+- SecurityController:  which has three main actions {login matched with the route "/login", logout -> "/logout" and confirm -> "/confirm/{token}"}
+   - the  `logout` are pretty simple, it usses the symfony [security component](https://symfony.com/doc/current/components/security.html) to logout the users.
+   - the `login` action is rendering a form at `templates/security/login.html.twig` that is being used to login users.
+   
+   ```
+   form_login:
+        check_path: security_login
+        login_path: security_login
+        csrf_token_generator: security.csrf.token_manager
+        default_target_path: micro_post_index
+   ```
+   this part in the `config/packages/security.yaml` is handling both the login and logout backend after visiting their links.
+   - the `confirm` action is taking a [paramter](https://symfony.com/doc/current/routing.html#route-parameters) called token which is being used to confirm the user. it's being used after sending an email for the users to confirm their mail aftering registering. (we will talk about this functionality in the `RegistrationController`)
+- LikesController: 
+- MicroPostController: 
+- NotificationController:
+- RegistrationController:
+- FollowingController:  which
 
-For now, ONLY `default` skin supports Dark Mode.
-
-The security component
-The Security component is divided into several smaller
-
-security-core : the common security features like authorization, authentication, encoding passwords and users loading.
-security-http: integrates the core with http response and requests.
-security-csrf: protection from the csrf attacs.
-security-guard: layers of authentications together to allow more complex authentication steps.
-
-# Security - core
-## User
-inside the security-core directory there is the User directory, it has the following interfaces
-
-UserInterface: all user classes must implement this it has the basic user info like the getPassword, getUsername and getRoles methods.
-AdvancedUserInterface: @deprecated — it adds some more features to check the user status like if its locked or not.
-UserCheckerInterface: Can be used when you want to check the account status.
-EquatableInterface: is $this->user equals the other user?
-UserProviderInterface: mainly to be used by some provider to provide the class with the user. @TODO: understand the difference between UserProviderInterface and UserAuthenticationProvider under provider/authentication.
-Authenitcation
-Authorization
-The very first thing you will hear about when it comes to authorizaing the users is voters. voters are called when you call isGranted() or denyAccessUnlessGranted() Exception There are many exceoptions available out of the box, you can choose from the following depending on your status:
-
-AccessDeniedException AccountExpiredException which implements AccountStatusException. AuthenticationCredentialsNotFoundException and many others available in the security-core/User directory.
-
-side notes for me as an oop newbie,
-
-symfony is mainly providing so many interfaces that you can use later like the user interface with it’s methods and specifies if it’s a throwing an exception or not.
-
-```mermaid
-graph TB;
-    A[Do you have a problem in your life?]
-    B[Then don't worry]
-    C[Can you do something about it?]
-    A--no-->B;
-    A--yes-->C;
-    C--no-->B;
-    C--yes-->B;
-```
-
-[![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/ahmed-ayman/ahmed-ayman.github.io/)
+[![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/Ahmed-Ayman/symfony-playground/)
 
 <!--  some custom styling. -->
+
 <style>
 .hero.hero--dark.overlay{
   background-size: 200px;
 }
   </style>
-
-  <div id="gitalk-container"></div>
