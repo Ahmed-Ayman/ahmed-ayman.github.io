@@ -1,7 +1,7 @@
 ---
 layout: article
 
-title: Understanding Symfony's Security component
+title: Understanding Symfony's Security component (in progress)
 tags: symfony
 mode: immersive
 cover: assets/images/symfony.png
