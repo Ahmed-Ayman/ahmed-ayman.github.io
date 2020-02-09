@@ -59,7 +59,8 @@ article_header:
 functions are like machines that takes input and produces an output.
 it associates one element from the `domain` set to the co-domain set.the element from the domain set cannot be associated twice to the co-domain set.
 
-**Mathematical models**, is a relation between different parameters.for example, the relation  are described by mathematical functions.
+**Mathematical models**, is a relation between different parameters. for example, the relation between the power loss and the fraction.
+the relation are described by mathematical functions.
 
 **Fromula** : used to describe the function, for example $$x^2$$ is the formula of the function that associates numbers to their squares.
 
@@ -86,18 +87,12 @@ Here is an example of functions representations.
 
 $$abs(x) = \cases{x  & for x <= 0 \cr
 -x &  for x <  0}$$
-
-> **remember** : a function f(x) has to have only one correspondance for each x.you can apply the **vertical line test** to check the number of functions. there has to be perciesly one $$y$$ value such that $$point(x,y)$$ lies on the function graph.
+ 
+ * word
+ $$y$$ is a function that calculates the distance of point x from the origin i.e. $$ abs(x)$$.
+> **remember** : a function f(x) has to have only one correspondance for each x.you can apply the **vertical line test** to check the number of functions.there has to be perciesly one $$y$$ value such that $$point(x, y)$$ lies on the function graph.
 
 ### Polynomial functions
-
-
-
-
-
-
-
-
 
 <!-- END -->
 if you like my blog please star me 
@@ -116,4 +111,12 @@ if you like my blog please star me
   </style>
 
   <div id="gitalk-container"></div>
+
+* [week 1] -> estimate (wednesday.)
+* [week 2] -> 
+* [week 3]
+* [week 4]
+* [week 5]
+* [week 6]
+* [week 7]
 
