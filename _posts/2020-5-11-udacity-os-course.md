@@ -41,7 +41,30 @@ related to threading with C.
 
 It's a piece of software that abstracts (simplifies) and arbitrates (control) the hardware of the computer system.
 
-# 
+The Operatng system is responsible for the following (think of it as a store manager):
+- **Direct operational resources:** control use of the tools. i.e, cpu, memory peripheral devices.
+- **Enforce working policies:** fair resources access, limit the resource usage.
+- **Mitigate difficulty of complext tasks:** abstract hardware details.
+
+It setts betwen the Hardware that consists of a CPU, Memory, Disk, GPU, USB, Ethernet/Wifi card
+and the software/apps.
+
+### The deifnition:
+It's a layer of system software that 
+- Hides hardware complexity (system calls). 
+- Does Resource management. 
+- Proivde isolation and protection (eg, the memory of each app shouldn't be overlapping).
+- directly has priviliged access to the underlying hardware.
+- manages hardware on behalf of one or more applications according to some predefined policies.
+
+it has components like scheduler (distribuing the access to the processing units), filesystem (simpler abstraction of file as a block of disk storage), device driver (making decisions on behalf of the driver).
+
+
+
+- 
+
+
+
 
 [![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/ahmed-ayman/ahmed-ayman.github.io/)
 
