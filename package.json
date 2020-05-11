@@ -44,7 +44,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "eslint": "^5.4.0",
-    "stylelint": "^9.5.0",
+    "stylelint": "^13.3.3",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^1.0.0",
