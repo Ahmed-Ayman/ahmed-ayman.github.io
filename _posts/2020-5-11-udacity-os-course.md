@@ -74,8 +74,27 @@ bein a less important process using the LRU algorightm (policy).
 
 
 ## 2.3 OS Design principles
-
-
+- seperation of mechanisms and policies
+  - implement flexible mechanisms to support many policies.
+  - LRU, LFU, random policies.
+- Optimize for common case
+  - Where will the os be used?
+  - what will the user want to execute on that machine?
+  - what are the workload requirments.
+  
+ ### Protection boundary
+ there has to be levels of protection
+ - user-level (applications) 
+ - kernel-level privileged mode, hardware access, priviliged direct.
+ 
+ Interactions betwheen user and kernel there is the 
+ - trap instructions (mostly related to the direct access to hardware?, privilged bit for kernel level only then grant or no for the user).
+ - the interactions should be by System calls Interface like open, send (socket), malloc (memory)
+ - signals to pass notifications to the applications.
+ 
+ ## 2.4 System calls
+ 
+ 
 
 [![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/ahmed-ayman/ahmed-ayman.github.io/)
 
