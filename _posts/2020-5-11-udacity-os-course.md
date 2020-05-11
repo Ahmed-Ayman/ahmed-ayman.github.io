@@ -19,6 +19,18 @@ article_header:
     src: assets/images/udacityos.jpg
 ---
 
+## prerquisits
+
+Before starting the course, you should be familir with C programming and Linux CMD.
+
+Check thsoe links to prepare:
+- https://en.wikibooks.org/wiki/A_Little_C_Primer/C_String_Function_Library
+- https://www.codingunit.com/c-tutorial-how-to-use-time-and-date-in-c
+- https://www.thegeekstuff.com/2012/08/c-linked-list-example/
+- https://www.tutorialspoint.com/c_standard_library/c_function_rand.htm
+
+
+
 
 [![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/ahmed-ayman/ahmed-ayman.github.io/)
 
