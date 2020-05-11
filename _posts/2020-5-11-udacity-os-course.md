@@ -22,6 +22,9 @@ article_header:
 This is a summary of the [udacity's OS course](https://classroom.udacity.com/courses/ud923), I will
 be trying to give you a good overview of what this course is talking about.
 
+The instructor [Ada Gavrilovska](https://www.cc.gatech.edu/~ada/) uses a lot of visual metaphors. 
+so, you will see me adding a lot of pics to illustrate the concepts.
+
 
 ## 1.1 prerequisites
 
