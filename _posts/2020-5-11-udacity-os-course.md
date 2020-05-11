@@ -19,15 +19,14 @@ article_header:
     src: assets/images/udacityos.jpg
 ---
 
-## prerquisits
+This is a summary of the [udacity's OS course](https://classroom.udacity.com/courses/ud923), I will
+be trying to give you a good overview of what this course is talking about.
 
-Before starting the course, you should be familir with C programming and Linux CMD.
 
-Check thsoe links to prepare:
-- https://en.wikibooks.org/wiki/A_Little_C_Primer/C_String_Function_Library
-- https://www.codingunit.com/c-tutorial-how-to-use-time-and-date-in-c
-- https://www.thegeekstuff.com/2012/08/c-linked-list-example/
-- https://www.tutorialspoint.com/c_standard_library/c_function_rand.htm
+## prerequisites
+
+Before starting this course, you should be familiar with C programming and Linux CMD since you will be doing projects 
+related to threading with C.
 
 
 
