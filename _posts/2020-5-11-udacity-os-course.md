@@ -59,10 +59,21 @@ It's a layer of system software that
 
 it has components like scheduler (distribuing the access to the processing units), filesystem (simpler abstraction of file as a block of disk storage), device driver (making decisions on behalf of the driver).
 
+## 2.2 OS elements
+- Abstractions
+  process, thread, file, socket, memory page.
+- Mechanisms
+  Create, schedule, write, open, allocate.
+- Policies
+  limit stuff and manage memeory for example using LRU (Least recently used ) Algorithm, earliest deadline first.
+
+Example.
+
+Memory page (Abstraction) is being allocated and maped to process (mechanism) which will be swapped to the Disk after 
+bein a less important process using the LRU algorightm (policy).
 
 
-- 
-
+## 2.3 OS Design principles
 
 
 
