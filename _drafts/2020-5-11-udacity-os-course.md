@@ -33,7 +33,8 @@ related to threading with C.
 
 ## 2.1 Books 
 - Modern Operating systems
-- Operating System Concepts (The dinasurs book)
+- Operating System Concepts (The dinasurs book) - I'm reading this book and solving the exercises [here](https://docs.google.com/document/d/1U2fnUlyZUgdHXtmpZg4CdQomHBPt6yt9NSFeg8Rf8ZE/edit?usp=sharing) 
+ 
 - Operating systems: three easy pieces.
 
 
@@ -92,8 +93,15 @@ bein a less important process using the LRU algorightm (policy).
  - the interactions should be by System calls Interface like open, send (socket), malloc (memory)
  - signals to pass notifications to the applications.
  
- ## 2.4 System calls
- 
+## 2.4 System calls
+
+the OS provides an interface to deal with the hardware, it provides you a set of functions to use. namely the System calls.
+
+The calls are used by the applications to have what is called a privliged mode to access the hardware (which sets the bit mode to 0).
+
+[example of system calls](https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/notes/ud923-p1l2-windows-vs-linux-system-calls.png) 
+
+
  
 
 [![Star This Project](https://img.shields.io/github/stars/ahmed-ayman/jekyll-TeXt-theme.svg?label=Stars&style=social)](https://github.com/ahmed-ayman/ahmed-ayman.github.io/)
